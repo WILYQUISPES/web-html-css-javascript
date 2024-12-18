@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.header {
+    background: linear-gradient(90deg, #af4c4c, #bc2424);
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    position: absolute; 
+    left: 20px;
+}
+
+.logo img {
+    height: 100px; 
+}
+
+.title {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+
+.main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.menu {
+    flex: 0 0 20%;
+    padding: 15px;
+    background-color: #f3ec9e;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu h3 {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.menu a:hover {
+    color: #000000;
+}
+
+
+.ejercicios {
+    flex: 1;
+    padding: 15px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.ejercicios h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #de4d4d;
+}
+
+.ejercicios div {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 6px solid #ff0000;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ejercicios h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.ejercicios form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ejercicios label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.ejercicios input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.ejercicios button {
+    background-color: #ff0000;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.ejercicios button:hover {
+    background-color: #000000;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background: #ff0000;
+    font-size: 0.9em;
+    color: #000000;
+}
+
+
